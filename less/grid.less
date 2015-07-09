@@ -1,8 +1,6 @@
 .container {
-  padding-right: @gutter-div;
-  padding-left: @gutter-div;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 @gutter-div;
+  margin: 0 auto;
   width: 100%;
 
   @media ( min-width: @viewport-sm ) {
@@ -19,23 +17,19 @@
 }
 
 .container-fluid {
-  padding-right: @gutter-div;
-  padding-left: @gutter-div;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 @gutter-div;
+  margin: 0 auto;
 }
 
 .row {
-  margin-right: -@gutter-div;
-  margin-left: -@gutter-div;
+  margin: 0 -@gutter-div;
 }
 
 [class^="col-"],
 [class*="col-"] {
 	position: relative;
 	min-height: 1px;
-	padding-right: @gutter-div;
-	padding-left: @gutter-div;
+	padding: 0 @gutter-div;
 	float: left;
 	width: 100%;
 }

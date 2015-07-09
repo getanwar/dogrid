@@ -1,0 +1,51 @@
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+
+@media ( max-width: (@viewport-sm - 1) ) {
+	.visible-xs {
+    display: block !important;
+  }
+}
+
+@media ( min-width: @viewport-sm ) and ( max-width: (@viewport-md - 1) ) {
+  .visible-sm {
+    display: block !important;
+  }
+}
+
+@media ( min-width: @viewport-md ) and ( max-width: (@viewport-lg - 1) ) {
+  .visible-md {
+    display: block !important;
+  }
+}
+
+@media ( min-width: @viewport-lg ) {
+	.visible-lg {
+    display: block !important;
+  }
+}
+
+@media ( max-width: (@viewport-sm - 1) ) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media ( min-width: @viewport-sm ) and ( max-width: (@viewport-md - 1) ) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media ( min-width: @viewport-md ) and ( max-width: (@viewport-lg - 1) ) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media ( min-width: @viewport-lg ) {
+  .hidden-lg {
+    display: none !important;
+  }
+}

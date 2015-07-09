@@ -1,6 +1,164 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 14px;
+  color: #546e7a;
+}
+a {
+  text-decoration: none;
+  color: #009688;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #00635a;
+}
+.navbar-default .brand {
+  padding-top: 30px;
+  color: #a6b9c1;
+}
+.navbar-default .brand:hover {
+  color: #009688;
+}
+.navbar-fixed-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.brand {
+  display: inline-block;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.nav li a {
+  padding: 15px 0px 8px;
+  display: block;
+  border-bottom: 1px solid #d3dce1;
+  position: relative;
+}
+.nav li a:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -1px;
+  border-bottom: 1px solid #009688;
+}
+.nav li a:hover:after {
+  left: 0;
+  transition: all 0.5s 0.15s;
+  right: 0;
+}
+.nav li a.btn {
+  padding: 10px 18px;
+  margin-left: 15px;
+}
+.navbar-right {
+  text-align: right;
+}
+.btn {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.btn-md {
+  padding: 10px 18px;
+  min-width: 90px;
+  font-size: 14px;
+}
+.btn-lg {
+  padding: 15px 22px;
+  min-width: 130px;
+  font-size: 16px;
+}
+.btn-base {
+  background: #009688;
+  color: #fff;
+}
+.btn-base:hover {
+  background: #00635a;
+  color: #fff;
+}
+.btn-grey {
+  background: #B0BEC5;
+  color: #fff;
+}
+.btn-grey:hover {
+  background: #93a6af;
+  color: #fff;
+}
+.btn-base-alt {
+  background: transparent;
+  border-color: #009688;
+  color: #009688;
+}
+.btn-base-alt:hover {
+  background: #00635a;
+  color: #fff;
+}
+h1 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+h4 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.1rem;
+}
+h6 {
+  font-size: 0.9rem;
+}
+h {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+p {
+  font-size: 16px;
+}
+.base-intro {
+  margin-top: 200px;
+}
+.base-intro .btn {
+  margin: 15px 2px;
+}
+.section-heading span {
+  font-weight: 400;
+}
+.text-center {
+  text-align: center;
+}
+.socialize {
+  padding: 0;
+}
+.socialize li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.main-doc {
+  padding-top: 70px;
 }
 .anatomy {
   background: rgba(0, 77, 64, 0.1);
@@ -8,9 +166,6 @@ body {
   border: 1px solid rgba(0, 77, 64, 0.2);
   margin-top: 15px;
   margin-bottom: 15px;
-}
-.anatomy .text {
-  padding: 20px 0;
 }
 .anatomy .anatomy {
   margin-top: 0;

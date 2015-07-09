@@ -5,8 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>GridSystem</title>
 	
-	<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-	<link rel="stylesheet" href="css/dogrid.css">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+	<link rel="stylesheet" href="css/dogrid.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300,200' rel='stylesheet'>
 	<link rel="stylesheet" href="css/demo.css">
 
 	<!--[if lt IE 9]>
@@ -14,111 +15,61 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="anatomy"></div>
+	<!-- NAVIGATION -->
+	<nav class="navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="brand-header">
+						<a href="#" class="brand">DoGrid</a>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<ul class="nav navbar-right">
+						<li><a href="docs.html">Docs</a></li>
+						<li><a href="#">Examples</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
+	</nav>
 
-		<div class="row">
-			<div class="col-xs-11">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-1">
-				<div class="anatomy"></div>
-			</div>
-		</div>
+	<!-- BASE INTRO -->
+	<div class="container text-center">
+		<div class="base-intro">
 
-		<div class="row">
-			<div class="col-xs-10">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-2">
-				<div class="anatomy"></div>
-			</div>
-		</div>
+			<h1 class="section-heading">Responsive Grid System for <span>Everyone</span></h1>
+			<p>Mobile First Grid System only 5kb, Bootstrap naming convention, IE8+, Chrome, Firefox, Opera</p>
 
-		<div class="row">
-			<div class="col-xs-9">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-3">
-				<div class="anatomy"></div>
-			</div>
-		</div>
+			<a href="https://github.com/getanwar/dogrid/archive/master.zip" class="btn btn-lg btn-base">Download</a>
+			<a href="demo.html" class="btn btn-lg btn-grey">View Demo</a>
 
-		<div class="row">
-			<div class="col-xs-8">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-4">
-				<div class="anatomy"></div>
-			</div>
-		</div>
+			<ul class="socialize">
+				<li class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></li>
+				
+				<li><a href="https://twitter.com/share" class="twitter-share-button" data-via="getanwar" data-hashtags="dogrid">Tweet</a></li>
 
-		<div class="row">
-			<div class="col-xs-7">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-5">
-				<div class="anatomy"></div>
-			</div>
-		</div>
+				<li><a class="github-button" href="https://github.com/getanwar/dogrid" data-count-href="/getanwar/dogrid/stargazers" data-count-api="/repos/getanwar/dogrid#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star getanwar/dogrid on GitHub">Star</a></li>
+			</ul>
 
-		<div class="row">
-			<div class="col-xs-6">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-6">
-				<div class="anatomy"></div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-5">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-7">
-				<div class="anatomy"></div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-4">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-8">
-				<div class="anatomy"></div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-3">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-9">
-				<div class="anatomy"></div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-2">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-10">
-				<div class="anatomy"></div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-xs-1">
-				<div class="anatomy"></div>
-			</div>
-			<div class="col-xs-11">
-				<div class="anatomy"></div>
-			</div>
 		</div>
 	</div>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- Place this tag right after the last button or just before your close body tag. -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
 </body>
 </html>
